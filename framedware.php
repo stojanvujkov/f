@@ -83,7 +83,7 @@ include( PLUGINPATH . 'php/SMTP.php' );
 
 // PLUGIN-UPDATE-CHECKER
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://frameshops.com/framedware.json',
+    'https://frameshops.com/framedware.json?' . time() ,
     __FILE__,
     'framedware'
 );

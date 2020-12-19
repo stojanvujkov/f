@@ -3,10 +3,10 @@
  * Plugin Name: FramedWare
  * Description: Framing plugin.
  * Author:
- * Version: 2.0.1.4
+ * Version: 2.0.1.5
  */
 
-define('FRAMEDWARE_ORDER_PLUGIN_VERSION', '2.0.1.4');
+define('FRAMEDWARE_ORDER_PLUGIN_VERSION', '2.0.1.5');
 
 ini_set('xdebug.var_display_max_depth', '10');
 ini_set('xdebug.var_display_max_children', '1000');

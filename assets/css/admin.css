@@ -1,0 +1,106 @@
+
+pre.install-instructions
+{
+    margin: 10px 20px 0 0;
+    padding: 15px;
+    background-color: #FFF;
+    font-family: monospace;
+    white-space: pre;
+}
+
+.framedware-report-container {
+    max-width: 900px;
+    margin: 0 0 30px 0;
+}
+
+#report_controls {
+    margin: 10px 0 20px 0;
+}
+
+#quick_select {
+    padding: 5px;
+}
+
+#quick_select .pick_month {
+    cursor: pointer;
+}
+
+#quick_select .pick_range {
+    cursor: pointer;
+}
+
+label {
+    color: #777;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.fff {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    align-items: center;
+    min-height: 52px;
+}
+
+.fff .box {
+    flex: 1;
+    align-items: center;
+}
+
+.fff .box-title {
+
+}
+
+.fff .box-controls {
+    text-align: right;
+}
+
+#modal-payout {
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*#TB_window {*/
+    /*background-color: #f1f1f1 !important;*/
+/*}*/
+
+/*#TB_ajaxContent {*/
+    /*padding: 20px;*/
+/*}*/
+
+.paypal_creadentials {
+    background-color: #e7e7e7;
+    margin: 10px 0 0 0;
+    padding: 10px;
+}
+
+.paypal_creadentials_title {
+    margin: 0 0 10px 0;
+}
+
+#form-response {
+    display: none;
+}
+
+#form-response-html {
+
+}
+
+#form-response-html-message {
+    font-size: 17px;
+    padding: 20px;
+    background-color: #FFFBD6;
+}
+
+.form-response-success {
+    background-color: #F0F9FE !important;
+}
+
+.form-response-error {
+    background-color: #FDF2F5 !important;
+}
+
+#form-response-html-details {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+}

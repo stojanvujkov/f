@@ -1,0 +1,23 @@
+{
+    "name": "filestack/filestack-php",
+    "description": "A Filestack library for PHP",
+    "license": "Apache-2.0",
+    "require": {
+        "php" : ">=5.6",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7",
+        "mockery/mockery": "dev-master",
+        "phpmd/phpmd" : "@stable",
+        "satooshi/php-coveralls": "^1.0",
+        "theseer/phpdox": "^0.10.1",
+        "phploc/phploc": "^4.0"
+    },
+    "autoload": {
+        "psr-4" : {
+            "Filestack\\" : "filestack",
+            "Filestack\\Mixins\\" : "filestack/mixins"
+        }
+    }
+}

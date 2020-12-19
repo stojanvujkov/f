@@ -1,0 +1,7 @@
+.DS_Store
+.php_cs.cache
+vendor/
+coverage/
+build/*
+tests/testfiles/*
+logs/

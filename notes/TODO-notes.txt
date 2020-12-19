@@ -1,0 +1,19 @@
+UPLOADER
+- add info in modal describing in detail Aspect Ratio
+
+croppper
+- add aditional crop aspect ratios
+
+configurator
+- create ability for a larger preview
+
+system wide
+- Add order date to the orders table
+- URGENT [*****]: when changing image of item already put in cart, when adding back to cart the sizing is OFF!
+- add HELP slide out
+- complete the login
+- complete the order admin
+
+
+Info on Auth0 on redirect url after login
+https://auth0.com/docs/users/guides/redirect-users-after-login

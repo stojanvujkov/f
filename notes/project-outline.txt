@@ -1,0 +1,43 @@
+
+** Uploader **
+
+-- init_uploader
+  -- getAjaxProductJSON
+  -- createFineUploader
+     -- process_image
+        -- onFileUploadAllComplete
+        -- calcPrintSizes
+           -- initPrintSize
+        -- calcQuicksizes
+        -- saveAjaxProductJSON_go_configurator
+
+  -- select_file_to_upload_framed
+     -- init_cropper
+     -- uploader_calcPrintSizes
+     -- display_sizes_uploader
+
+  -- get_printSizes
+     -- display_sizes_uploader
+        -- set_image_size_uploader
+
+
+-- configurator
+   -- init_fineuploader
+      -- put_product_config_details
+   -- getAjaxProductJSON_load_konva
+      -- load_framed
+         -- load_images
+            -- load_main_image
+            -- load_border_image
+            -- load_background_image
+            -- set_frame
+         -- set_current_frame_preview
+         -- display_sizes_configurator
+            -- set_config_frame_size
+
+-- Shopping Cart
+  -- get_order_cart_info
+     -- get_cart_contents
+        -- populate contents on the screen
+
+

@@ -1,0 +1,13 @@
+{
+    "require": {
+        "automattic/woocommerce": "1.3",
+        "calcinai/php-imagick": "^0.1.2",
+        "nwtn/php-respimg": "^1.0",
+        "php": ">=5.6",
+        "ext-curl": "*",
+        "authorizenet/authorizenet": ">=1.9.3",
+        "auth0/auth0-php": "~5.0",
+        "filestack/filestack-php": "^1.1",
+        "yahnis-elsts/plugin-update-checker": "dev-master"
+    }
+}

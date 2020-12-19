@@ -1,0 +1,1 @@
+Paste into (overwrite): /wp-content/themes/pro-child/functions.php

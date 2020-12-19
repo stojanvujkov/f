@@ -3,10 +3,10 @@
  * Plugin Name: FramedWare
  * Description: Framing plugin.
  * Author:
- * Version: 2.0.1.3
+ * Version: 2.0.1.4
  */
 
-define('FRAMEDWARE_ORDER_PLUGIN_VERSION', '2.0.1.3');
+define('FRAMEDWARE_ORDER_PLUGIN_VERSION', '2.0.1.4');
 
 ini_set('xdebug.var_display_max_depth', '10');
 ini_set('xdebug.var_display_max_children', '1000');
@@ -83,14 +83,10 @@ include( PLUGINPATH . 'php/SMTP.php' );
 
 // PLUGIN-UPDATE-CHECKER
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/stojanvujkov/f',
+    'https://frameshops.com/framedware.json',
     __FILE__,
     'framedware'
 );
-//Optional: If you're using a private repository, specify the access token like this:
-$myUpdateChecker->setAuthentication(GIT_TOKEN);
-//Optional: Set the branch that contains the stable release.
-$myUpdateChecker->setBranch('master');
 
 
 //ae_nocache(); // disable caching // TODO: this is not working >  PHP Warning:  Cannot modify header information - headers already sent
